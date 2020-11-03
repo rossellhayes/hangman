@@ -1,0 +1,28 @@
+Package: hangman
+Title: Play a game of hangman in the console
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Alexander",
+             family = "Rossell Hayes",
+             role = c("aut", "cre", "cph"),
+             email = "alexander@rossellhayes.com",
+             comment = c(ORCID = "0000-0001-9412-0457")),
+      person(given = "Centre for Translation Studies, University of Leeds",
+             role = "cph"),
+      person(given = "Luis",
+             family = "Von Ahn",
+             role = "cph"))
+Description: Creates an interactive game in the console. Try to reveal a
+  randomly selected word by guessing letters. If you make six incorrect
+  guesses, you lose. Includes a list of 10,000 common English words with more
+  than three letters.
+License: MIT + file LICENSE
+Depends: 
+    R (>= 2.10)
+Imports: 
+    crayon,
+    R6
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
